@@ -1,0 +1,350 @@
+@import "media"
+body{
+	padding: 0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  background: linear-gradient(to bottom, #ffffff, #cacac8);
+  max-height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+header span {
+	font-size: 20px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu_item {
+	margin-right: 18px;
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 5px 25px;
+	color: red;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	list-style-type: none;
+}
+.logo {
+	width: 100px;
+	height: 75px;
+	margin-right: 20px;
+}
+
+.promo {
+	background: url('../img/promo_bg.jpg') center center/cover no-repeat;
+	height:100vh;
+	position: relative;
+	min-height: 575px;
+}
+
+.promo_block{
+  position: absolute;
+  top:80px;
+  left:80px;
+  width: 30%;
+  background-color: rgba(185, 182, 181,0.8);
+  box-sizing: border-box;
+  padding: 15px 10px;
+  border:1px solid red;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.promo_title{
+	margin-left: 15px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.promo_descr {
+	text-align: center;
+	font-size: 16px;
+}
+
+.flag {
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	width: 100%;
+}
+
+.flag_black {
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0, 0, 0,0.8);
+}
+
+.flag_red {
+	width: 100%;
+	height: 80px;
+	background-color: rgba(232, 5, 5, 0.8);
+}
+
+.flag_yellow {
+	width:100%;
+  height:80px;
+  background-color: rgba(244, 252, 6,0.8);
+}
+
+.promo_info {
+	position: absolute;
+	padding: 0 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	bottom: 30px;
+}
+
+.info_item {
+	background: linear-gradient(to bottom, #ffffff, #cacac8);
+	border: 2px solid #000000;
+	max-width: 250px;
+	padding: 50px 15px 5px 15px;
+	margin-left: 40px;
+	z-index: 3;
+	border-radius: 30px;
+}
+
+.info_text {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.info_btn {
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 15px 25px;
+	color: red;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	list-style-type: none;
+	margin: 5px auto;
+	width: 60%;
+}
+
+.car {
+	background: url('../img/car_bg.jpg') center center/cover no-repeat;
+	height: 100vh;
+	padding: 200px 50px;
+}
+
+.message {
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+	border-radius: 100%;
+	background-color: #fff;
+	display: block;
+	padding: 0 15px;
+}
+
+.message_text {
+	margin-top: 100px;
+	font-size: 15px;
+	text-align: center;
+}
+
+footer {
+	height: 150px;
+	background-color: #000000;
+	padding: 25px;
+}
+
+.contacts {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.mail {
+	font-size: 20px;
+	color: #ffffff;
+	display: block;
+	text-align: right;
+}
+
+
+@media (max-width: 1279px){
+	.promo_info {
+		padding: 0 90px;
+	}
+	.info_block{
+		margin-left: 20px;
+	}
+	.info_text {
+		font-size: 14px;
+	}
+	footer {
+		max-height: 100px;
+	}
+}
+
+@media (max-width: 999px){
+	.promo_info {
+		padding: 0 20px 0 0;
+	}
+	.info_text {
+		font-size: 13px;
+	}
+	.info_btn {
+		padding: 15px 20px;
+		font-size: 14px;
+	}
+	.car {
+		height: 70vh;
+	}
+	.message {
+		width: 250px;
+		height: 250px;
+	}
+	.message_text {
+		margin-top: 60px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 767px){
+	.menu_item {
+		margin-right: 12px;
+		padding: 5px 15px;
+		font-size: 13px;
+	}
+	.logo {
+    width: 80px;
+    height: 60px;
+    margin-right: 10px;
+}
+	.promo_block {
+		top: 35px;
+	}
+	.promo_title {
+		font-size: 20px;
+	}
+	.promo_descr {
+		font-size: 13px;
+	}
+	.info_item {
+		margin-left: 20px;
+		padding: 25px 10px 5px 10px;
+	}
+	.info_btn {
+		padding: 10px 15px;
+		font-size: 12px;
+	}
+	.car {
+		height: 60vh;
+		padding: 100px 50px;
+	}
+	.message {
+		width: 200px;
+		height: 200px;
+	}
+	.message_text {
+		margin-top: 40px;
+		font-size: 12px;
+	}
+	.contacts {
+		font-size: 15px;
+	}
+	.mail {
+		font-size: 15px;
+	}
+	footer {
+		height: 50px;
+	}
+}
+
+@media (max-width: 539px){
+	header span {
+    font-size: 14px;
+  }
+  .menu_item {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+	}
+  .logo {
+    width: 60px;
+    height: 45px;
+    margin-right: 5px;
+	}
+	.promo {
+		 min-height: 400px;
+	}
+	.promo_block {
+    top: 25px;
+    left: 35px;
+    width: 50%;
+    padding: 10px 5px;
+	}
+	.promo_title {
+    font-size: 18px;
+	}
+	.promo_descr {
+    font-size: 11px;
+	}
+	.promo_info {
+    padding: 0px 10px 0 0;
+	}
+	.info_item {
+    margin-left: 10px;
+    padding: 20px 5px 5px 5px;
+	}
+	.info_text {
+    font-size: 11px;
+	}
+	.info_btn {
+    padding: 5px 10px;
+    font-size: 10px;
+	}
+	.flag_black {
+		height: 60px;
+	}
+	.flag_red {
+		height: 60px;
+	}
+	.flag_yellow {
+		height: 60px;
+	}
+	.car {
+    height: 60vh;
+    padding: 30px 15px;
+	}
+	.message {
+    width: 150px;
+    height: 150px;
+    padding: 0px 10px;
+	}
+	.message_text {
+    margin-top: 25px;
+    font-size: 10px;
+	}
+	.contacts {
+    font-size: 10px;
+	}
+	.mail {
+    font-size: 10px;
+	}
+	footer {
+    height: 30px;
+    padding: 20px;
+	}
+}

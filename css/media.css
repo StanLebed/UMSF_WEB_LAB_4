@@ -1,0 +1,166 @@
+@media (max-width: 1279px){
+	.promo_info {
+		padding: 0 90px;
+	}
+	.info_block{
+		margin-left: 20px;
+	}
+	.info_text {
+		font-size: 14px;
+	}
+	footer {
+		max-height: 100px;
+	}
+}
+
+@media (max-width: 999px){
+	.promo_info {
+		padding: 0 20px 0 0;
+	}
+	.info_text {
+		font-size: 13px;
+	}
+	.info_btn {
+		padding: 15px 20px;
+		font-size: 14px;
+	}
+	.car {
+		height: 70vh;
+	}
+	.message {
+		width: 250px;
+		height: 250px;
+	}
+	.message_text {
+		margin-top: 60px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 767px){
+	.menu_item {
+		margin-right: 12px;
+		padding: 5px 15px;
+		font-size: 13px;
+	}
+	.logo {
+    width: 80px;
+    height: 60px;
+    margin-right: 10px;
+}
+	.promo_block {
+		top: 35px;
+	}
+	.promo_title {
+		font-size: 20px;
+	}
+	.promo_descr {
+		font-size: 13px;
+	}
+	.info_item {
+		margin-left: 20px;
+		padding: 25px 10px 5px 10px;
+	}
+	.info_btn {
+		padding: 10px 15px;
+		font-size: 12px;
+	}
+	.car {
+		height: 60vh;
+		padding: 100px 50px;
+	}
+	.message {
+		width: 200px;
+		height: 200px;
+	}
+	.message_text {
+		margin-top: 40px;
+		font-size: 12px;
+	}
+	.contacts {
+		font-size: 15px;
+	}
+	.mail {
+		font-size: 15px;
+	}
+	footer {
+		height: 50px;
+	}
+}
+
+@media (max-width: 539px){
+	header span {
+    font-size: 14px;
+  }
+  .menu_item {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+	}
+  .logo {
+    width: 60px;
+    height: 45px;
+    margin-right: 5px;
+	}
+	.promo {
+		 min-height: 400px;
+	}
+	.promo_block {
+    top: 25px;
+    left: 35px;
+    width: 50%;
+    padding: 10px 5px;
+	}
+	.promo_title {
+    font-size: 18px;
+	}
+	.promo_descr {
+    font-size: 11px;
+	}
+	.promo_info {
+    padding: 0px 10px 0 0;
+	}
+	.info_item {
+    margin-left: 10px;
+    padding: 20px 5px 5px 5px;
+	}
+	.info_text {
+    font-size: 11px;
+	}
+	.info_btn {
+    padding: 5px 10px;
+    font-size: 10px;
+	}
+	.flag_black {
+		height: 60px;
+	}
+	.flag_red {
+		height: 60px;
+	}
+	.flag_yellow {
+		height: 60px;
+	}
+	.car {
+    height: 60vh;
+    padding: 30px 15px;
+	}
+	.message {
+    width: 150px;
+    height: 150px;
+    padding: 0px 10px;
+	}
+	.message_text {
+    margin-top: 25px;
+    font-size: 10px;
+	}
+	.contacts {
+    font-size: 10px;
+	}
+	.mail {
+    font-size: 10px;
+	}
+	footer {
+    height: 30px;
+    padding: 20px;
+	}
+}
